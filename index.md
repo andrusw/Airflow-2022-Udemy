@@ -55,9 +55,18 @@ elastic | elastic_hook.ElasticHook | $PLUGINS_FOLDER/hooks/elastic/elastic_hook.
 
 More info:
 
-DockerOperator with Templating and Apache Spark: https://marclamberti.com/blog/how-to-use-dockeroperator-apache-airflow/
-Apache Airflow with Kubernetes Executor: https://marclamberti.com/blog/airflow-on-kubernetes-get-started-in-10-mins/
-How to use templates and macros in Apache Airflow: https://marclamberti.com/blog/templates-macros-apache-airflow/
-Variables with apache airflow: https://marclamberti.com/blog/variables-with-apache-airflow/
+* DockerOperator with Templating and Apache Spark: https://marclamberti.com/blog/how-to-use-dockeroperator-apache-airflow/
+* Apache Airflow with Kubernetes Executor: https://marclamberti.com/blog/airflow-on-kubernetes-get-started-in-10-mins/
+* How to use templates and macros in Apache Airflow: https://marclamberti.com/blog/templates-macros-apache-airflow/
+* Variables with apache airflow: https://marclamberti.com/blog/variables-with-apache-airflow/
+
+
+Apache 2.4:
+curl -LFO 'https://airflow.apache.org/docs/apache-airflow/2.4.0/docker-compose.yaml'
+docker-compose up -d
+
+Apache 2.5:
+curl -LFO 'https://airflow.apache.org/docs/apache-airflow/2.5.0/docker-compose.yaml'
+docker-compose up -d
 
 
